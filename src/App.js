@@ -1,10 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
+import SiteNavigation from './components/SiteNavigation';
 
 function App() {
   return (
     <div className="App">
+      <SiteNavigation />
       <header className="App-header">
+
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
