@@ -1,14 +1,25 @@
-import logo from './logo.svg';
+import React from 'react';
+import { ThemeProvider } from 'styled-components';
 import './App.css';
 import SiteNavigation from './components/SiteNavigation';
 
-function App() {
+const theme = {
+  colors: {
+    primary: 'hsl(80, 30%, 40%)',
+    secondary: 'hsl(120, 80%, 30%)',
+    tertiary: 'hsl(40, 30%, 40%)',
+    quaternary: 'hsl(80, 80%, 60%)',
+    quinary: 'hsl(100, 80% 60%)',
+      },
+};
+
+function App () {
+    
   return (
+    <ThemeProvider theme={theme}>
     <div className="App">
       <SiteNavigation />
       <header className="App-header">
-
-        {/* <img src={logo} className="App-logo" alt="logo" /> */}
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
@@ -22,6 +33,7 @@ function App() {
         </a>
       </header>
     </div>
+    </ThemeProvider>
   );
 }
 
