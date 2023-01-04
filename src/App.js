@@ -10,6 +10,7 @@ const theme = {
     tertiary: 'hsl(40, 30%, 40%)',
     quaternary: 'hsl(80, 80%, 60%)',
     quinary: 'hsl(100, 80% 60%)',
+    clear: 'hsla(0, 0%, 0%, 0)',
       },
 };
 
