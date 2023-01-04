@@ -1,25 +1,24 @@
-import FlexContainer from "./FlexContainer";
-import LogoContainer from "./LogoContainer";
-import NavigationContainer from "./NavigationContainer";
-import NavigationGroup from "./NavigationGroup";
-import ContentWrapper from "./ContentWrapper";
+import Section from "./Section";
+import Logo from "./Logo";
+import Container from "./Container";
+
+import Wrapper from "./Wrapper";
 
 const SiteNavigation = () => {
     return (
-        <FlexContainer>
-            <ContentWrapper>
-                <LogoContainer />
-                
-                    <NavigationGroup>
-                <NavigationContainer>
+        <Section>
+            <Wrapper>
+                <Container>
+                    <Logo /> 
+                </Container>
+                <Container>
                     <a href="/">Home</a>
                     <a href="/about">About</a>
                     <a href="/contact">Contact</a>
-                </NavigationContainer>
-                    </NavigationGroup>
+                </Container>
 
-            </ContentWrapper>
-        </FlexContainer>
+            </Wrapper>
+        </Section>
     );
 }
 

@@ -1,17 +1,18 @@
 import React from "react";
 import styled from "styled-components";
 
-const StyledNavigationContainer = styled.div`
+const StyledContainer = styled.div`
     display: flex; /* This is the default value, but it's good to be explicit */
     gap: 1rem; /* Add some space between the navigation items */
+    border: 1px solid red;
     align-items: center; /* Align the navigation items to the center */
     `;
-const NavigationContainer = (props) => {
+const Container = (props) => {
     return (
-        <StyledNavigationContainer>
+        <StyledContainer>
             {props.children}
-        </StyledNavigationContainer>
+        </StyledContainer>
     );
 }
 
-export default NavigationContainer;
+export default Container;
