@@ -1,6 +1,8 @@
 import React from "react";
 import styled from "styled-components";
 
+/* Create a wrapper component to center the content and set a max-width */
+
 const StyledWrapper = styled.div`
     display: flex; /* flexbox to align the logo and nav vertically */
     margin: 0 auto; /* Center the content */
