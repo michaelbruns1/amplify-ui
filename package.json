@@ -2,6 +2,7 @@
   "name": "amplify-react-template",
   "version": "0.1.0",
   "private": true,
+  "homepage": ".",
   "dependencies": {
     "@aws-amplify/datastore": "^4.0.8",
     "@aws-amplify/ui-react": "^1.2.26",
