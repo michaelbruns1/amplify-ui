@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Page Header
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The is a demo of the Page Header component.
 
 ## Available Scripts
 
