@@ -20,6 +20,7 @@ function App () {
     <ThemeProvider theme={theme}>
     <div className="App">
       <SiteNavigation />
+      <article><h1></h1></article>
     </div>
     </ThemeProvider>
   );

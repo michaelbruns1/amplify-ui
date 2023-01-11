@@ -30,7 +30,8 @@ const Logo = (props) => {
             height={props.height}
             width={props.width}                      
             xmlns="http://www.w3.org/2000/svg"
-            viewBox="250 200 700 800"           
+            viewBox="250 200 700 800" 
+            alt="Hannah's logo"          
         >
             <g>
 
